@@ -26,7 +26,7 @@ import (
 // Version is initialized by the Go linker to contain the semver of this build.
 var Version string
 
-const Name string = "xyz"
+const Name string = "spotify"
 
 func Provider() p.Provider {
 	// We tell the provider what resources it needs to support.
@@ -81,7 +81,7 @@ func (Random) Create(ctx p.Context, name string, input RandomArgs, preview bool)
 
 func makeRandom(length int) string {
 	seededRand := rand.New(rand.NewSource(time.Now().UnixNano()))
-	charset := []rune("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789")
+	charset := []rune("abcdefghijklmnopqrstuvwspotifyABCDEFGHIJKLMNOPQRSTUVWSPOTIFY0123456789")
 
 	result := make([]rune, length)
 	for i := range result {

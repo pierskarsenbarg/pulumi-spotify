@@ -1,2 +1,2 @@
-// Package xyz exports types, functions, subpackages for provisioning xyz resources.
-package xyz
+// Package spotify exports types, functions, subpackages for provisioning spotify resources.
+package spotify

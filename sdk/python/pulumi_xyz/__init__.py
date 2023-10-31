@@ -11,11 +11,11 @@ _utilities.register(
     resource_modules="""
 [
  {
-  "pkg": "xyz",
+  "pkg": "spotify",
   "mod": "index",
-  "fqn": "pulumi_xyz",
+  "fqn": "pulumi_spotify",
   "classes": {
-   "xyz:index:Random": "Random"
+   "spotify:index:Random": "Random"
   }
  }
 ]
@@ -23,9 +23,9 @@ _utilities.register(
     resource_packages="""
 [
  {
-  "pkg": "xyz",
-  "token": "pulumi:providers:xyz",
-  "fqn": "pulumi_xyz",
+  "pkg": "spotify",
+  "token": "pulumi:providers:spotify",
+  "fqn": "pulumi_spotify",
   "class": "Provider"
  }
 ]

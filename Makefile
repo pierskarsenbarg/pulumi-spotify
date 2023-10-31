@@ -1,10 +1,10 @@
-PROJECT_NAME := Pulumi Xyz Resource Provider
+PROJECT_NAME := Pulumi Spotify Resource Provider
 
-PACK             := xyz
+PACK             := spotify
 PACKDIR          := sdk
-PROJECT          := github.com/pulumi/pulumi-xyz
-NODE_MODULE_NAME := @pulumi/xyz
-NUGET_PKG_NAME   := Pulumi.Xyz
+PROJECT          := github.com/pierskarsenbarg/pulumi-spotify
+NODE_MODULE_NAME := @pierskarsenbarg/spotify
+NUGET_PKG_NAME   := PiersKarsenbarg.Spotify
 
 PROVIDER        := pulumi-resource-${PACK}
 VERSION         ?= $(shell pulumictl get version)
